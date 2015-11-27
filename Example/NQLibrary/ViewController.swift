@@ -7,11 +7,22 @@
 //
 
 import UIKit
+import NQLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let url = "https://raw.githubusercontent.com/CocoaPods/Specs/a828e815ac7b13b5fdffeac92657ccb8f235a78b/Specs/Demo/0.1.0/Demo.podspec.json"
+        NQHTTPRequest.sharedInstance.addAcceptContentType("text/plain")
+        NQHTTPRequest.sharedInstance.GETRequest(url, headerRequest: ["Content-Type":"application/json"], urlParam: [String:String](), success: { (responseObject) -> () in
+            print("---->>\(responseObject)")
+            }) { (error) -> () in
+                print("---->>\(error.localizedDescription)")
+                
+        }
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
