@@ -2,6 +2,7 @@
   "name": "NQLibrary",
   "version": "0.1.0",
   "summary": "This is collection my libraries.",
+  "description": "",
   "homepage": "https://github.com/quannguyen90/NQLibrary",
   "license": "MIT",
   "authors": {
@@ -12,7 +13,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
@@ -21,7 +22,6 @@
       "Pod/Assets/*.png"
     ]
   },
-  "frameworks": "XCTest",
   "dependencies": {
     "AFNetworking": [
 
