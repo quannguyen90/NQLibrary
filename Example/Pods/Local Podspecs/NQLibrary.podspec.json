@@ -1,0 +1,25 @@
+{
+  "name": "NQLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of NQLibrary.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NQLibrary",
+  "license": "MIT",
+  "authors": {
+    "Quan Nguyen Van": "quannv.tm@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NQLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "NQLibrary": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - NQLibrary (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - NQLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  NQLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  NQLibrary: 0d44284966586077e05ac68a5cb895bc8984b842
+
+COCOAPODS: 0.39.0
