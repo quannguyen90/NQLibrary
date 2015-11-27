@@ -1,19 +1,18 @@
 {
   "name": "NQLibrary",
   "version": "0.1.0",
-  "summary": "A short description of NQLibrary.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/NQLibrary",
+  "summary": "This is collection my libraries.",
+  "homepage": "https://github.com/quannguyen90/NQLibrary",
   "license": "MIT",
   "authors": {
     "Quan Nguyen Van": "quannv.tm@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/NQLibrary.git",
+    "git": "https://github.com/quannguyen90/NQLibrary.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
@@ -22,9 +21,10 @@
       "Pod/Assets/*.png"
     ]
   },
+  "frameworks": "XCTest",
   "dependencies": {
     "AFNetworking": [
-      "~> 2.3"
+
     ]
   }
 }

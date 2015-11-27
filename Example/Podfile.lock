@@ -26,7 +26,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.0.7):
     - FBSnapshotTestCase/Core
   - NQLibrary (0.1.0):
-    - AFNetworking (~> 2.3)
+    - AFNetworking
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -39,6 +39,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  NQLibrary: 053f04397994f17bc2ffd92cd6e407ecee90025c
+  NQLibrary: de9af6a736e11a59a04194a212452e956a5e44d8
 
 COCOAPODS: 0.39.0
