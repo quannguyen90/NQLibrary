@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'NQLibrary_Example', :exclusive => true do
+  pod "NQLibrary", :path => "../"
+end
+
+target 'NQLibrary_Tests', :exclusive => true do
+  pod "NQLibrary", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
