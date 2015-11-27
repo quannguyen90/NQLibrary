@@ -84,10 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-NQLibrary_Tests/AFNetworking.framework"
   install_framework "Pods-NQLibrary_Tests/NQLibrary.framework"
   install_framework "Pods-NQLibrary_Tests/FBSnapshotTestCase.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-NQLibrary_Tests/AFNetworking.framework"
   install_framework "Pods-NQLibrary_Tests/NQLibrary.framework"
   install_framework "Pods-NQLibrary_Tests/FBSnapshotTestCase.framework"
 fi

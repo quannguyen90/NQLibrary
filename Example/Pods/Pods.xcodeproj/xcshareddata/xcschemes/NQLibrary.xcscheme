@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B96C8A8D8B776805699C9411'
+               BlueprintIdentifier = 'F310C15F25205F481D154780'
                BlueprintName = 'NQLibrary'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'NQLibrary.framework'>
